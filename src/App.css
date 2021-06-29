@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: grey;
     color: blanchedalmond;
 }
 
@@ -8,8 +8,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: turquoise;
-    color: black;
+    background-color: black;
     font-size: 2em;
 }
 

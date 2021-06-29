@@ -1,14 +1,16 @@
 import './ExpenseItem.css'
+import ExpenseDate from './ExpenseDate';
+import Card from '../UI/Card';
 
 function ExpenseItem(props){
-    const ExpenseDate=new Date(2000,6,18);
-
+    
     return(
-        <div className="expense-item">
-            <div className="expenseitem-date">{ExpenseDate.toISOString().slice(0,10)}</div>
+        <Card className="expense-item">
+            <ExpenseDate date={props.date}/>
             <div className="expenseitem-reason">{props.reason}</div>
             <div className="expenseitem-amount">{props.amount}</div>
-        </div>
+            
+        </Card>
     )
 
 }
