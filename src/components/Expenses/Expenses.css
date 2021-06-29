@@ -1,6 +1,7 @@
 .expenses {
     width: 50rem;
     height: max-content;
+    max-width: 95%;
     margin: auto;
     background-color: rgb(36, 36, 36);
     margin-top: 2rem;
